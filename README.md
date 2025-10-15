@@ -13,11 +13,18 @@ This website, created in HTML and CSS, is part of my basic learning in web devel
 ---
 
 # Features
-- Home page with a simple introduction.
+- It can be navigated using a web browser through the three sections: **Inicio**, **Artículos**, and **Contacto**.  
+Clicking on any of these links will take you to the corresponding page.
 - Articles section with content about video games.
 - Basic form page for user interaction.
 - Simple, clean layout using HTML and CSS only.
 - Images and styles organized in folders for clarity.
+- The **Contacto** section is simple. You just need to fill in your details, which include: your first name, last name, email, age, and the message you want to send.  
+1. If any field is left empty, a red warning message appears indicating that it must be filled.  
+2. Once the field is filled, the red warning disappears.  
+3. The **Email** and **Age** fields have validation:  
+4. The email must be in a valid format.  
+5. The age must be a number between 1 and 120.
 
 ---
 

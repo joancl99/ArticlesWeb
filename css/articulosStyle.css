@@ -1,0 +1,172 @@
+body 
+{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    color: #2c3e50;
+}
+
+
+header 
+{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+h1 
+{
+    font-size: 3em;
+    color: #1c1d1f;
+}
+
+
+h5 
+{
+    font-size: 30px;
+    color: #16a085;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #16a085;
+    padding-bottom: 20px;
+}
+
+
+.contenido 
+{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.articulo 
+{
+    margin: 40px auto;
+    max-width: 1200px;     
+    background-color: #f7fcf9;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    border: 3px solid #16a085;
+}
+
+
+h2
+{
+    font-size: 2em;
+    text-decoration: underline;
+    color: #1c1d1f;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+h11
+{
+    font-size: 2em;
+    text-decoration: underline;
+    color: #1c1d1f;
+    margin-top: 1000px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+
+h3
+{
+    font-size: 2.5em;
+    color: #1c1d1f;
+    margin: 15px;
+    font-weight: bold;
+}
+
+
+.imagen-articulo 
+{
+    max-width: 35%;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+
+.imagen-articulo:hover 
+{
+    transform: scale(1.1);
+}
+
+
+p 
+{
+    font-size: 1.3em;
+    line-height: 1.8;
+    color: #1c1d1f;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-align: center;
+}
+
+
+nav 
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #30805a;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+a 
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+a:hover 
+{
+    background-color: #16a085;
+    transform: translateY(-3px);
+}
+
+
+a:active 
+{
+    background-color: #27ae60;
+    transform: translateY(1px);
+}
+
+
+a[href*="wikipedia"] 
+{
+    color: #365cad;
+    text-decoration: none;
+}
+
+
+a[href*="wikipedia"]:hover 
+{
+    background-color: #16a085;
+    transform: translateY(-3px);
+}
+
+
+a[href*="wikipedia"]:active 
+{
+    background-color: #27ae60;
+    transform: translateY(1px);
+}
